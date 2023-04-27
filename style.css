@@ -1,0 +1,66 @@
+*{
+        box-sizing: border-box;
+    }
+    .container{
+
+        margin: 30px auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        
+    }
+    .container >div{
+        border: 1px solid #ccc;
+        width: calc(100% / 7);
+        height: calc(80vh / 7);
+        margin-left: -1px;
+        margin-top: -1px;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 20;
+        font-family:Arial, Helvetica, sans-serif, "微軟正黑體";
+        
+    }
+
+    
+    .container >div:nth-child(1),
+    .container >div:nth-child(7),
+    .container >div:nth-child(8),
+    .container >div:nth-child(14),
+    .container >div:nth-child(15),
+    .container >div:nth-child(21),
+    .container >div:nth-child(22),
+    .container >div:nth-child(28),
+    .container >div:nth-child(29),
+    .container >div:nth-child(35),
+    .container >div:nth-child(36),
+    .container >div:nth-child(42),
+    .container >div:nth-child(43),
+    .container >div:nth-child(49)
+    {
+        background-color: lightpink;
+        
+        backdrop-filter: 3px ;
+
+    }
+    .month{
+        width: 50%;
+        /* background-color: #ccc; */
+        text-align:end;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #ccc;
+        margin: 10px auto;
+        /* border: 1px solid #ccc; */
+        /* border-radius: 10%; */
+        border-left: 20vw solid #ccc ;
+        padding-right: 10px;
+    }
+    
+    .next{
+        width:20%;
+        font-size: 20px;
+        text-align:center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #ccc;
+        margin: 10px auto;
+    }
